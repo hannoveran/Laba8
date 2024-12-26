@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery__item {
+    margin: 10px;
+}
+
+.gallery__link {
+    display: block;
+    text-decoration: none;
+    border: 2px solid transparent;
+    transition: border-color 0.3s ease;
+}
+
+.gallery__link:hover {
+    border-color: #007BFF;
+}
+
+.gallery__image {
+    display: block;
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+}
